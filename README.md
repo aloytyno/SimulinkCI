@@ -30,3 +30,4 @@ buildtool("codegen")
 ```
 
 Generated code and cache files are written under `build/`.
+In GitHub Actions, generated source under `build/codegen/` is committed back to the repository after successful code generation. Build cache files remain ignored.

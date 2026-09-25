@@ -6,11 +6,14 @@
 # Simulink and code generation outputs
 .buildtool/
 slprj/
-*_ert_rtw/
-*_grt_rtw/
 *.mex*
 *.exe
-build/
+build/cache/
+build/codegen/*
+!build/codegen/*_grt_rtw/
+build/codegen/*_grt_rtw/*
+!build/codegen/*_grt_rtw/*.c
+!build/codegen/*_grt_rtw/*.h
 
 # MATLAB project/user metadata
 .SimulinkProject/
