@@ -1,0 +1,21 @@
+# MATLAB temporary and autosave files
+*.asv
+*.m~
+*.slxc
+
+# Simulink and code generation outputs
+.buildtool/
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*.mex*
+*.exe
+build/
+
+# MATLAB project/user metadata
+.SimulinkProject/
+resources/project/Root.type.Files/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
