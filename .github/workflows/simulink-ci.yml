@@ -11,6 +11,8 @@ jobs:
   build:
     name: Run buildtool
     runs-on: ubuntu-latest
+    env:
+      MLM_LICENSE_TOKEN: ${{ secrets.MLM_BATCH_TOKEN }}
 
     steps:
       - name: Check out repository
