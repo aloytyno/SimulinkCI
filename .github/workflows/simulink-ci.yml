@@ -23,6 +23,7 @@ jobs:
           products: >
             MATLAB
             Simulink
+            MATLAB_Coder
             Simulink_Coder
 
       - name: Run default build task
