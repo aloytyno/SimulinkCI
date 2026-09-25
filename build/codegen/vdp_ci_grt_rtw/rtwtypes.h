@@ -5,7 +5,7 @@
  *
  * Model version              : 13.2
  * Simulink Coder version : 26.1 (R2026a) 20-Nov-2025
- * C source code generated on : Fri Sep 25 13:08:03 2026
+ * C source code generated on : Fri Sep 25 10:50:05 2026
  *
  * Target selection: grt.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -40,18 +40,18 @@ typedef void * pointer_T;
 #ifndef INT64_T
 #define INT64_T
 
-typedef long long int64_T;
+typedef long int64_T;
 
-#define MAX_int64_T                    ((int64_T)(9223372036854775807LL))
-#define MIN_int64_T                    ((int64_T)(-9223372036854775807LL-1LL))
+#define MAX_int64_T                    ((int64_T)(9223372036854775807L))
+#define MIN_int64_T                    ((int64_T)(-9223372036854775807L-1L))
 #endif
 
 #ifndef UINT64_T
 #define UINT64_T
 
-typedef unsigned long long uint64_T;
+typedef unsigned long uint64_T;
 
-#define MAX_uint64_T                   ((uint64_T)(0xFFFFFFFFFFFFFFFFULL))
+#define MAX_uint64_T                   ((uint64_T)(0xFFFFFFFFFFFFFFFFUL))
 #endif
 
 /*===========================================================================*
